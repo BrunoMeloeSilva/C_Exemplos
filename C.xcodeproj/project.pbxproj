@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90B348CF1F539ED000285EA2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B348CE1F539ED000285EA2 /* main.c */; };
+		90B348D81F539F7D00285EA2 /* ComparaString.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B348D61F539F7D00285EA2 /* ComparaString.c */; };
+		90B348DA1F539FF100285EA2 /* EditorTextoSimples.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B348D91F539FF100285EA2 /* EditorTextoSimples.c */; };
+		90B348DC1F53A02800285EA2 /* EscrevendoArquivo.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B348DB1F53A02800285EA2 /* EscrevendoArquivo.c */; };
+		90B348DE1F53A0C500285EA2 /* JurosCompostos.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B348DD1F53A0C500285EA2 /* JurosCompostos.c */; };
+		90B348E01F53A2B000285EA2 /* Ponteiros.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B348DF1F53A2B000285EA2 /* Ponteiros.c */; };
+		90B348E21F53A2DA00285EA2 /* Strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B348E11F53A2DA00285EA2 /* Strings.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,12 @@
 
 /* Begin PBXFileReference section */
 		90B348CB1F539ED000285EA2 /* C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C; sourceTree = BUILT_PRODUCTS_DIR; };
-		90B348CE1F539ED000285EA2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		90B348D61F539F7D00285EA2 /* ComparaString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ComparaString.c; sourceTree = SOURCE_ROOT; };
+		90B348D91F539FF100285EA2 /* EditorTextoSimples.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EditorTextoSimples.c; sourceTree = SOURCE_ROOT; };
+		90B348DB1F53A02800285EA2 /* EscrevendoArquivo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EscrevendoArquivo.c; sourceTree = SOURCE_ROOT; };
+		90B348DD1F53A0C500285EA2 /* JurosCompostos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JurosCompostos.c; sourceTree = SOURCE_ROOT; };
+		90B348DF1F53A2B000285EA2 /* Ponteiros.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ponteiros.c; sourceTree = SOURCE_ROOT; };
+		90B348E11F53A2DA00285EA2 /* Strings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Strings.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,12 @@
 		90B348CD1F539ED000285EA2 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				90B348CE1F539ED000285EA2 /* main.c */,
+				90B348D61F539F7D00285EA2 /* ComparaString.c */,
+				90B348D91F539FF100285EA2 /* EditorTextoSimples.c */,
+				90B348DB1F53A02800285EA2 /* EscrevendoArquivo.c */,
+				90B348DD1F53A0C500285EA2 /* JurosCompostos.c */,
+				90B348DF1F53A2B000285EA2 /* Ponteiros.c */,
+				90B348E11F53A2DA00285EA2 /* Strings.c */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90B348CF1F539ED000285EA2 /* main.c in Sources */,
+				90B348DC1F53A02800285EA2 /* EscrevendoArquivo.c in Sources */,
+				90B348D81F539F7D00285EA2 /* ComparaString.c in Sources */,
+				90B348E21F53A2DA00285EA2 /* Strings.c in Sources */,
+				90B348DA1F539FF100285EA2 /* EditorTextoSimples.c in Sources */,
+				90B348E01F53A2B000285EA2 /* Ponteiros.c in Sources */,
+				90B348DE1F53A0C500285EA2 /* JurosCompostos.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
